@@ -1,13 +1,13 @@
-v 4
-file . "tb.vhdl" "7b686e7003e611cf7a147e2c19b3e4fcfa3a3b1e" "20230419141547.715":
-  entity tb at 1( 0) + 0 on 81;
-  architecture test of tb at 6( 82) + 0 on 82;
-file . "ffjk.vhdl" "99975d73e61ce21f5b2deba8fdf71684a944130f" "20230419141547.714":
-  entity ffjk at 1( 0) + 0 on 79;
-  architecture latch of ffjk at 13( 246) + 0 on 80;
-file . "crtl_jk.vhdl" "7a8a542f3b0fbec9d68163739ba22826e4e3b996" "20230419141547.712":
-  entity ctrl_jk at 1( 0) + 0 on 77;
-  architecture controler of ctrl_jk at 12( 226) + 0 on 78;
-file . "contador.vhdl" "c4e84fb12796a091425ef9b6a83e5c2b06d0df98" "20230419141547.711":
-  entity contador at 1( 0) + 0 on 75;
-  architecture contar of contador at 11( 176) + 0 on 76;
+v 3
+file . "TB.vhdl" "20230419170448.000" "20230419140647.728":
+  entity tb at 1( 0) + 0 on 151;
+  architecture teste of tb at 7( 76) + 0 on 152;
+file . "CONTADOR.vhdl" "20230419165828.000" "20230419140647.726":
+  entity contador at 1( 0) + 0 on 145;
+  architecture contar of contador at 11( 183) + 0 on 146;
+file . "CTRL.vhdl" "20230419165438.000" "20230419140647.726":
+  entity ctrl at 1( 0) + 0 on 147;
+  architecture controlar of ctrl at 12( 236) + 0 on 148;
+file . "FFJK.vhdl" "20230419170638.000" "20230419140647.727":
+  entity ffjk at 1( 0) + 0 on 149;
+  architecture ff of ffjk at 17( 226) + 0 on 150;
